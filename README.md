@@ -28,32 +28,6 @@ Register and login
 Request blood by group and units
 View request history
 Track status and dashboard statistics
-🏗️ Project Structure
-bloodbankmanagement-master/
-│
-├── bloodbankmanagement/ # Django project settings
-│ ├── init.py
-│ ├── settings.py
-│ ├── urls.py
-│ ├── asgi.py
-│ └── wsgi.py
-│
-├── app/ # Main application
-│ ├── migrations/
-│ ├── templates/ # HTML templates
-│ ├── static/ # CSS, JS, images
-│ ├── init.py
-│ ├── admin.py
-│ ├── apps.py
-│ ├── models.py # Database models
-│ ├── views.py # Business logic
-│ ├── urls.py # App routes
-│ └── forms.py # Forms
-│
-├── db.sqlite3 # SQLite database
-├── manage.py # Django project manager
-├── requirements.txt # Project dependencies
-└── README.md # Project documentation
 🛠️ Tech Stack
 Python 🐍
 Django 🌐
